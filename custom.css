@@ -1,0 +1,101 @@
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+code {
+  color: #E01A76;
+}
+
+/*.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}*/
+
+.btn {
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+}
+
+
+.memory-block-free {
+    background-color: darkseagreen;
+    width: 200px;
+    height: 20px;
+    text-align:center;
+}
+.memory-block-used {
+    background-color: #fa4e70;
+    width: 200px;
+    height: 20px;
+    text-align:center;
+}
+.memory-block-freed {
+    background-color: #99ffe7;
+    width: 200px;
+    height: 20px;
+    text-align:center;
+}
+
+
+.task-todo {
+    background-color: #b9b9b9;
+    width: 200px;
+    height: 30px;
+    text-align:center;
+}
+.task-allocated {
+    background-color:#ff9922;
+    width: 200px;
+    height: 30px;
+    text-align:center;
+}
+.task-freed {
+    background-color: #ffe2e2;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+}
+.task-running {
+    background-color:#9180fa;
+    width: 200px;
+    height: 30px;
+    text-align:center;
+}
+
+.memory-container {
+    overflow: scroll;
+    height: 590px;
+    width: 250px;
+    border-radius: 3px;
+}
+.container{
+    display:flex
+}
+
+
+/* BFA - 样式*/
+/*描述任务行为*/
+
+
+.waiting{
+    color:#5c5c5c
+}
+.done{
+    color:#2894e5
+}
+
+/*描述内存状态*/ 
+.used{  
+    color:red
+}
+/*回收*/
+.free {
+    color: forestgreen
+}
+
+.replace{
+    background-color:#a4bdca
+}
